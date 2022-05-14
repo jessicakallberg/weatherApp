@@ -44,6 +44,30 @@ var modalBtn = document.getElementById("modal-button");
 var modalText1 = document.getElementById("modal-text-1");
 var modalText2 = document.getElementById("modal-text-2");
 var mainContent = document.getElementById("main-content");
+
+//Function to save search history
+
+function saveCity(city) {
+    console.log(city)
+    var searchHistory 
+    //check to see if there is a search history in place
+    if(localStorage.getItem('search-history')) {
+        searchHistory = JSON.parse(localStorage.getItem('search-history'))
+        searchHistory.push(city)
+        localStorage.setItem('search-history', JSON.stringify(searchHistory))
+        
+    } else {
+        searchHistory = []
+        searchHistory.push(city)
+        localStorage.setItem('search-history', JSON.stringify(searchHistory))
+    }
+    getHistory()
+}
+function getHistory() {
+    var cityHistory = JSON.parse(localStorage.getItem('search-history'))
+    console.log(cityHistory)
+    //render each of the cities in the city history array into buttons
+}
 modalBtn.addEventListener("click", function () {
     modal.classList.add("hidden");
     mainContent.classList.remove("hidden");
@@ -59,6 +83,8 @@ modalBtn.addEventListener("click", function () {
         if (response.ok) {
             console.log(response);
             response.json().then(function (data) {
+                console.log(data)
+                saveCity(data[0].name)
                 if (!data[0]) {
                     modal.classList.remove("hidden");
                     modalText1.textContent = "ERROR City not found.";
