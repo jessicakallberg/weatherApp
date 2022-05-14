@@ -1,54 +1,51 @@
 # Weather Application
 
 ## Description 
-A web application
-
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
-
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+This is a web application built to tell you current weather as well as the forecasting weather for the next five days.  I used a few api's to render the information depending on the location.  A geo code to find the latitude and longitude of the location that was searched for.  Followed by two weather api's to render the current and 5 day forecasted weather. 
 
 
 ## Installation
-No instillation needed, simply go to our web site https://jessicakallberg.github.io/weatherApp/ from your pc or cell phone, search city, and enjoy the weather forecast!
+No instillation needed!
+
+## Usage
+ Simply go to our web site https://jessicakallberg.github.io/weatherApp/ from your pc or cell phone, search city, and enjoy the weather forecast!
 
 
-## Usage 
-
-
+![Capture30](./assets/images/weather-app.PNG)
 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+<a href="https://github.com/jessicakallberg/weatherApp/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=jessicakallberg/weatherApp" />
+</a>
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
+* Jessica K - https://github.com/jessicakallberg
 
 
 ## License
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
+Copyright (c) [2022] [Jessica Kallberg]
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![Markdown](https://img.shields.io/badge/Markdown-0000000?style=plasticfor-the-badge&logo=markdown&logoColor=black)
 
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=plasticfor-the-badge&logo=tailwind-css&logoColor=black)
 
 
-## Contributing
+## Languages Used
 
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=jessicakallberg&theme=blue-green)
 
-## Tests
+## Contributions
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
