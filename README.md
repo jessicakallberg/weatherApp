@@ -1,7 +1,7 @@
 # Weather Application
 
 ## Description 
-This is a web application built to tell you current weather as well as the forecasting weather for the next five days.  I used a few api's to render the information depending on the location.  A geo code to find the latitude and longitude of the location that was searched for.  Followed by two weather api's to render the current and 5 day forecasted weather. 
+This is a web application built to tell you current weather as well as the forecasting weather for the next five days.  I used a few api's to render the information depending on the location.  A geo code to find the latitude and longitude of the location that was searched for.  Followed by two weather api's to render the current and 5 day forecasted weather. Local storage was also utilized for this project.
 
 
 ## Installation
